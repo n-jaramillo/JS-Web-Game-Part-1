@@ -26,3 +26,15 @@ function newItem(imgSrc, leftPosition, bottomPosition) {
 let sword = newItem('sword.png', 500, 405)
 let shield = newItem('shield.png', 165, 185)
 let staff = newItem('staff.png', 600, 100)
+
+
+function newBackdrop(imgSrc, leftPosition, bottomPosition, width, height){
+    for (let h = 0; h < height ; h++) {
+        for (let w = 0; w < width; w++) {
+            newImage(imgSrc, leftPosition + w * 100, bottomPosition + h * 100)
+        }
+    }
+}
+
+let grass = newBackdrop('grass.png', 0, 0, window.innerWidth / 100, window.innerHeight / 100)
+// let sky = newBackdrop('sky.png', 0, 0, window.innerWidth / 100, window.innerHeight / 100)

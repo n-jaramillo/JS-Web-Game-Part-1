@@ -9,5 +9,8 @@ function newImage(imgSrc, leftPosition, bottomPosition) {
 }
 
 let greenCharacter = newImage('green-character.gif', 100, 100)
-
 let pineTree = newImage('pine-tree.png', 450, 200)
+let tree = newImage('tree.png', 200, 300)
+let pillar = newImage('pillar.png', 350, 100)
+let crate = newImage('crate.png', 150, 200)
+let well = newImage('well.png', 500, 425)

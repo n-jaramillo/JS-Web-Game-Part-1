@@ -14,3 +14,14 @@ let tree = newImage('tree.png', 200, 300)
 let pillar = newImage('pillar.png', 350, 100)
 let crate = newImage('crate.png', 150, 200)
 let well = newImage('well.png', 500, 425)
+
+
+function newItem(imgSrc, leftPosition, bottomPosition) {
+    let item = newImage(imgSrc, leftPosition, bottomPosition)
+
+    item.addEventListener('click', function() {
+        item.remove()
+    })
+}
+
+let sword = newItem('sword.png', 500, 405)

@@ -28,7 +28,6 @@ let sword = newItem('sword.png', 500, 405, 1)
 let shield = newItem('shield.png', 165, 185, 1)
 let staff = newItem('staff.png', 600, 100, 1)
 
-
 function newBackdrop(imgSrc, leftPosition, bottomPosition, width, height, z){
     for (let h = 0; h < height ; h++) {
         for (let w = 0; w < width; w++) {

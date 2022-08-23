@@ -38,4 +38,4 @@ function newBackdrop(imgSrc, leftPosition, bottomPosition, width, height, z){
 }
 
 let grass = newBackdrop('grass.png', 0, 0, window.innerWidth / 100, (window.innerHeight / 100)/2, 0)
-// let sky = newBackdrop('sky.png', 0, 0, window.innerWidth / 100, window.innerHeight / 100)
+let sky = newBackdrop('sky.png', 0, 0, window.innerWidth / 100, window.innerHeight / 100, -1)
